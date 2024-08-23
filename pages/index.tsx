@@ -1,9 +1,11 @@
-import Header from "@/components/Header";
+import Header from "@/components/layout/Header"
 
-export default function Home() {
+const Home = () => {
   return (
- <>
-  <Header lable="Home" />
- </>
-  );
+    <>
+    <Header label={"Home"} showBackArrow={false}/>
+    </>
+  )
 }
+
+export default Home
